@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>Form Project - Survey</title>
+</head>
+
+
+<body>
+<h1 align="center">
+        <font color="blue">Form Project - Survey</font>
+    </h1>
+<form>
+<p>
+<label for="name"><b>Name:</b></label>
+<input type="text" id="name" name="name"placeholder="Your name" size="30">
+<label for="major"><b>Major:</b></label>
+            <input type="text" id="major" name="major"placeholder="Your major" size="30">
+        </p>
+
+<fieldset>
+<legend>
+                <font color="blue"><b>Your Details</b></font>
+            </legend> <br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"placeholder="example@domain.com" size="35">
+<br><br>
+Gender:
+
+
+        <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+
+            <br><br>
+
+
+            <label for="grade">Grade:</label>
+
+
+            <select id="grade" name="grade">
+                <option value="freshman">Freshman</option>
+                <option value="sophomore">Sophomore</option>
+                <option value="junior">Junior</option>
+                <option value="senior">Senior</option>
+            </select>
+<br><br>
+</fieldset>
+<br><fieldset>
+    <legend>
+                <font color="blue"><b>Semester Feedback</b></font>
+            </legend>
+<br>
+<label for="semester">
+                How is your semester going?
+            </label>
+            <select id="semester" name="semester">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="not-good">Not Good</option>
+            </select>
+<br><br>
+Which subjects are challenging?
+<br>
+<input type="checkbox" id="web" name="subject" value="web">
+            <label for="web">Web</label>
+
+
+            <input type="checkbox" id="python" name="subject" value="python">
+            <label for="python">Python</label>
+
+
+            <input type="checkbox" id="english" name="subject" value="english">
+            <label for="english">English</label>
+
+
+            <input type="checkbox" id="math" name="subject" value="math">
+            <label for="math">Math</label>
+<br><br>
+Favorite day of the week:
+<br>
+<input type="radio" id="monday" name="day" value="monday">
+            <label for="monday">Monday</label>
+
+
+            <input type="radio" id="tuesday" name="day" value="tuesday">
+            <label for="tuesday">Tuesday</label>
+
+
+            <input type="radio" id="wednesday" name="day" value="wednesday">
+            <label for="wednesday">Wednesday</label>
+
+
+            <input type="radio" id="thursday" name="day" value="thursday">
+            <label for="thursday">Thursday</label>
+
+
+            <input type="radio" id="friday" name="day" value="friday">
+            <label for="friday">Friday</label>
+
+
+            <br><br>
+<label for="comments">
+                Additional Comments:
+            </label>
+<br>
+<textarea id="comments"
+                name="comments"
+                rows="6"
+                cols="40"
+                placeholder="Your feedback...."></textarea>
+<br><br>
+</fieldset>
+<br>
+<input type="submit" value="Submit Survey">
+</form>
+
+</body>
+</html>
